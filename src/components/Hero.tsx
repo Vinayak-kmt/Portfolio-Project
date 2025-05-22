@@ -13,7 +13,7 @@ const Hero: React.FC = () => {
               Hi, I'm
               <span className="bg-gradient-to-r from-blue-400 to-indigo-400 bg-clip-text text-transparent">
                 {' '}
-                Vinay Naik
+                Vinayak Naik
               </span>
             </h1>
 
