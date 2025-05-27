@@ -25,10 +25,10 @@ const Contact: React.FC = () => {
 
     try {
       await emailjs.sendForm(
-        'service_ia2eoxo', // Replace with your EmailJS service ID
-        'template_ohox5bn', // Replace with your EmailJS template ID
+        'service_ia2eoxo',
+        'template_ohox5bn',
         formRef.current,
-        'l0wwearS8X3_D7JkH' // Replace with your EmailJS public key
+        'l0wwearS8X3_D7JkH'
       );
       setSubmitStatus('success');
       formRef.current.reset();
@@ -68,7 +68,7 @@ const Contact: React.FC = () => {
                   <div>
                     <p className="text-gray-400">Email</p>
                     <a
-                      href="mailto:hello@vinayaknaik.com"
+                      href="mailto:Vinayaknaikurk@gmail.com"
                       className="text-white hover:text-blue-400 transition-colors"
                     >
                       Vinayaknaikurk@gmail.com
@@ -83,7 +83,7 @@ const Contact: React.FC = () => {
                   <div>
                     <p className="text-gray-400">Phone</p>
                     <a
-                      href="tel:+1234567890"
+                      href="tel:+919743002393"
                       className="text-white hover:text-blue-400 transition-colors"
                     >
                       +91 9743002393
@@ -118,7 +118,6 @@ const Contact: React.FC = () => {
                   required
                   className="w-full px-4 py-3 rounded-lg bg-white/5 border border-white/20 text-white placeholder-gray-400 focus:outline-none focus:border-blue-400 transition-colors"
                   placeholder="Your name"
-                  s
                 />
               </div>
 
