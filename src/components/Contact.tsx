@@ -28,7 +28,7 @@ const Contact: React.FC = () => {
         'service_ia2eoxo', // Replace with your EmailJS service ID
         'template_ohox5bn', // Replace with your EmailJS template ID
         formRef.current,
-        'public_key_l0wwearS8X3_D7JkH' // Replace with your EmailJS public key
+        'l0wwearS8X3_D7JkH' // Replace with your EmailJS public key
       );
       setSubmitStatus('success');
       formRef.current.reset();
